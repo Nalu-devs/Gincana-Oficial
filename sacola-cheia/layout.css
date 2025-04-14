@@ -1,0 +1,118 @@
+body, html{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    display: grid; /*para editar cada parte do layout*/
+    grid-template-columns:100%; /*determinamos a quantidade de colunas e o tamanho delas*/
+    grid-template-rows:100px auto 100px; /*determinamos a quantidade de linhas e o tamanho deles*/
+    grid-template-areas:'header header'
+                        'main main'
+                        'footer footer'; /*Descrevemos exatamente como vai ser a divisão*/
+}
+header{
+    grid-area: header; /*Chamamos pelo nome que colocamos no grid-template-area*/
+}
+
+footer{
+    background-color: #002f87;
+    grid-area: footer;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+}
+.card{
+height: 510px;
+width: 243.64px;
+background-color: rgb(255, 255, 255);
+margin: 30px;
+}
+.img-card{
+height:244px;
+width:244px;
+display: flex;
+}
+.img-card:hover{
+    height:300px;
+    width: 300px;
+    display: flex;
+    }
+.descricao{
+height:48px;
+width:232px;
+font-size:14px;
+font-family:Arial, Helvetica, sans-serif;
+font-weight: bold;
+text-align: center;
+margin-bottom:5px;
+padding: 10px 5px;
+}
+.preco{
+font-size:20px;
+color:blue;
+font-weight:bold;
+padding:10px 5px;
+}
+.pagamento{
+font-size:15px;
+}
+.botao{
+background-color: #a5be00;
+color:rgb(0, 0, 0);
+width: 100%;
+height: 25px;
+font-size: 15px;
+align-items: center;
+text-align: center;
+border: 0;
+}
+.botao:hover{
+    border-radius: 10px;
+    height: 30px;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    transition: 0.3s;
+}
+.botao-comprar{
+padding:10px 5px;
+}
+.botao-comprar:hover{
+    padding:10px 5px;
+    border-radius: 20px;
+}
+h1,p{
+text-align: center;
+}
+#pesquisa {
+    margin: 30px;
+    width: 100%;
+    height: 30px;
+    border-radius: 20px;
+    display: block; /* Adicione ou certifique-se de ter isso */
+}
+  main {
+    background-color: #fff;
+    grid-area: main;
+    flex-wrap: wrap;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;   
+}
+.imagem-comprar{
+    width: 200px;
+    height: 200px; 
+}
+h1{
+    color: #a5be00;
+}

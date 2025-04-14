@@ -1,0 +1,45 @@
+.menu{
+    background-color: #ffffff;
+    color:#fff;
+    display:flex;
+    margin: 0;
+}
+
+.item-menu{
+    list-style:none;
+    padding: 12px 80px;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.item-menu:hover{
+    background-color:#a5be00;
+    margin-top: 0;
+    border-radius: 10px;
+    transition: 0.3s;
+    height: 30px;
+}
+.link-menu{
+    text-decoration: none;
+    color:#000000;
+    font-weight: bold;
+}
+.link-menu:hover{
+    color: #ffffff;
+    text-decoration: solid;
+}
+img{
+    width: 130px;
+    height: 130pxpx;
+    margin: 0;
+}
+.carrinho-menu{
+    height: 80px;
+    border: none;
+    background-color: transparent;
+}
+
+#carrinho{
+    width: 40px;
+    height: 60px;
+}
