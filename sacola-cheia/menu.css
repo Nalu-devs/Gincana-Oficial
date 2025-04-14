@@ -7,7 +7,7 @@
 
 .item-menu{
     list-style:none;
-    padding: 12px 80px;
+    padding: 12px 120px;
     align-items: center;
     text-align: center;
     margin-top: 20px;
@@ -34,12 +34,18 @@ img{
     margin: 0;
 }
 .carrinho-menu{
-    height: 80px;
     border: none;
     background-color: transparent;
+    position: absolute;
+    width: 100px;
+    height: 70px;
+    right: 5px;
 }
 
 #carrinho{
     width: 40px;
     height: 60px;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
 }
